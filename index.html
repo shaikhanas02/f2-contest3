@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="head">
+    <h1>Dashboard</h1>
+</div>
+<div class="btn">
+   <button id="butt" onclick="create_tr()">Add A New Row</button>
+</div>
+
+<div class="tab">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Student Name</th>
+                <th>Student Roll</th>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th>Marked By</th>
+                <th>Save</th>
+            </tr>
+        </thead>
+        <tbody id = "table_body">
+
+         <!-- <tr>
+           <td id="ID">1</td>
+           <td><input type="text" id="name"></td>
+           <td><input type="text" id="roll"></td>
+           <td><input type="text" id="subject"></td>
+           <td><input type="text" id="marks"></td>
+           <td><input type="text" id="markedby"></td>
+           <td><button id="but" onclick="save_tr()">Save</button></td>
+
+         </tr> -->
+            
+        </tbody>
+        
+
+    </table>
+
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
